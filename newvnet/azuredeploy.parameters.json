@@ -4,6 +4,9 @@
   "parameters": {
     "location": {
       "value": "eastus"
+    },
+    "dnsServers": {
+      "value": "10.0.0.4"
     }
   }
 }

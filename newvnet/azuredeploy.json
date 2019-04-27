@@ -44,6 +44,9 @@
         "description": "Subnet 2 Name"
       }
     },
+    "dnsServers": {
+      "type": "string"
+    },
     "location": {
       "type": "string",
       "defaultValue": "eastus",
@@ -65,6 +68,9 @@
             "[parameters('vnetAddressPrefix')]"
           ]
         }
+      },
+      "dhcpOptions": {
+        "dnsServers": "[parameters('dnsservers')]"
       },
       "resources": [
         {
