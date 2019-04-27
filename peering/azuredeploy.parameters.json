@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "existingLocalVirtualNetworkName": {
-      "value": "vnet1"
+      "value": "GAB2019DemoVNet"
     },
     "existingRemoteVirtualNetworkName": {
-      "value": "vnet2"
+      "value": "GAB2019DemoVNet2"
     },
     "existingRemoteVirtualNetworkResourceGroupName": {
-      "value": "vnet2-rg"
+      "value": "RG-2019GAB"
     }
   }
 }
