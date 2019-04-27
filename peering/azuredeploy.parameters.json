@@ -10,6 +10,9 @@
     },
     "existingRemoteVirtualNetworkResourceGroupName": {
       "value": "RG-2019GAB"
+    },
+    "location": {
+      "value": "eastus"
     }
   }
 }
