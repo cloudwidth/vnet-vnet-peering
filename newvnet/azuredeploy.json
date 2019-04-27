@@ -45,7 +45,8 @@
       }
     },
     "dnsServers": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "10.0.0.4"
     },
     "location": {
       "type": "string",
