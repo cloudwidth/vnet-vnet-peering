@@ -4,25 +4,28 @@
   "parameters": {
     "existingLocalVirtualNetworkName": {
       "type": "string",
+      "defaultValue": "GAB2019DemoVNet2",
       "metadata": {
         "description": "Set the local VNet name"
       }
     },
     "existingRemoteVirtualNetworkName": {
       "type": "string",
+      "defaultValue": "GAB2019DemoVNet",
       "metadata": {
         "description": "Set the remote VNet name"
       }
     },
     "existingRemoteVirtualNetworkResourceGroupName": {
       "type": "string",
+      "defaultValue": "RG-2019GAB",
       "metadata": {
         "description": "Sets the remote VNet Resource group"
       }
     },
     "location": {
       "type": "string",
-      "defaultValue": "[resourceGroup().location]",
+      "defaultValue": "eastus",
       "metadata": {
         "description": "Location for all resources."
       }
